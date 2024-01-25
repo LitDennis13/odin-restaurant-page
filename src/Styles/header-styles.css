@@ -1,0 +1,30 @@
+#page-header {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0,.7);
+}
+
+#page-header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#page-header-nav > button {
+    border: none;
+    height: 3rem;
+    width: 8rem;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    background-color: rgb(214,34,1);
+}
+
+#page-header-nav > button:hover {
+    background-color: rgb(167,27,1);
+}
