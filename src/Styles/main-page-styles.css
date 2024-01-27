@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "FlameReg";
+    src: url("../Fonts/Flame-Regular.ttf");
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "FlameReg";
 }
 
 :root {
@@ -11,7 +17,7 @@
 
 body {
     display: grid;
-    grid-template: 1fr 8fr / 1fr;
+    grid-template: 12% 88% / 1fr;
     height: 100vh;
     width: 100vw;  
 }

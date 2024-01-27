@@ -1,0 +1,28 @@
+#content-about-page {
+    overflow-x: hidden;
+    color: black;
+    display: grid;
+    grid-template: 1fr 1fr 10fr / 1fr;
+    align-items: start;
+    justify-items: center;
+    row-gap: 1.2rem;
+    width: 100%;
+    height: 100%;
+}
+
+#content-about-page > h1 {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 4rem;
+    
+}
+#content-about-page > h2 {
+    grid-area: 2 / 1 / 3 / 2;
+    font-size: 3rem;
+}
+
+#content-about-page > p {
+    grid-area: 3 / 1 / 4 / 2;
+    font-size: 2rem;
+    max-width: 70%;
+    text-align: center;
+}
